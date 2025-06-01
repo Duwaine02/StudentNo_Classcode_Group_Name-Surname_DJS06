@@ -1,3 +1,5 @@
+
+
 // A list of provinces:
 const provinces = ['Western Cape', 'Gauteng', 'Northern Cape', 'Eastern Cape', 'KwaZulu-Natal', 'Free State']
 
@@ -13,3 +15,11 @@ const products = [
   { product: 'coffee', price: 10 },
   { product: 'tea', price: '' },
 ]
+//Logging each province
+provinces.forEach(province =>console.log(province));
+
+//Logging each name
+names.forEach(name =>console.log(name));
+
+
+
